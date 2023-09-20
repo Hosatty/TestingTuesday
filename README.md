@@ -9,7 +9,7 @@ I have tried to implment the POM (Page object model) in this project.
 
 **Setup :**
 
-1. Clone the repo Git clone 
+1. Clone the repo **"Git clone https://github.com/Hosatty/TestingTuesday.git"**
 
 2. Open the project in VS code or Terminal run the command **"npm install"** - This will install all the dependencies
 
