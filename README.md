@@ -1,6 +1,7 @@
 #CASE - EVENT REGISTTRATION
-
+---------------------------
 Case-Crayon-Quality Assurance Specialist – Vivek Hosatty Moorthi
+----------------------------------------------------------------
 
 
 This is a **webdriverIO + Cucumber** framework.
