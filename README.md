@@ -3,8 +3,11 @@
 Case-Crayon-Quality Assurance Specialist – Vivek Hosatty Moorthi
 
 
+This is a **webdriverIO + Cucumber** framework.
+I have tried to implment the POM (Page object model) in this project.
 
-Setup :
+
+**Setup :**
 
 1. Clone the repo Git clone 
 
