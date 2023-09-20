@@ -6,7 +6,7 @@ import Page from './page.js';
 /**
  * sub page containing specific selectors and methods for a specific page
  */
-class FormPage extends Page {
+class eventDetails extends Page {
     /**
      * define selectors using getter methods
      */
@@ -28,10 +28,14 @@ class FormPage extends Page {
     async enterMandatoryFieldsOnly(Name, Email, DOB, org) {
             await browser.pause(5000)
             await this.inputName.setValue(Name)
+            console.log (" ******* Name enetered ********")
             await this.inputEmail.setValue(Email)
+            console.log (" ******* Email enetered ********")
             await this.inputDate.setValue(DOB)
-            await this.inputOrgnaisation.setValue(org)
+            console.log (" ******* DOB enetered ********")
+            // await this.inputOrgnaisation.setValue(org)
             await this.inputGender.click()
+            console.log (" ******* Gender enetered ********")
             await browser.pause(5000)
             
     
@@ -54,9 +58,10 @@ class FormPage extends Page {
     async submitForm () {
         await this.btnformSubmit.click();
         await browser.pause(30000)
+        console.log (" ******* Submitted Form ********")
     }
    
 
 }
 
-export default new FormPage();
+export default new eventDetails();
